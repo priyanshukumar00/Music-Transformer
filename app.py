@@ -30,7 +30,6 @@ def generate_music_tensors(description, duration: int):
 
     return output[0]
 
-
 def save_audio(samples: torch.Tensor):
     """Renders an audio player for the given audio samples and saves them to a local directory.
 
